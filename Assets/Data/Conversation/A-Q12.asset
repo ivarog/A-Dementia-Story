@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1438cd8561fbfaf4c9e29dae9b895e46, type: 3}
+  m_Name: A-Q12
+  m_EditorClassIdentifier: 
+  text: "Empezaron a hablar entre ellos y dijeron algo sobre tener\u2026 tener\u2026
+    eso.. arriba en el segundo piso"
+  choices:
+  - text: "Decid\xED enfrentarlos y tratar de averiguar que pasaba\u2026"
+    conversation: {fileID: 11400000, guid: 4c3b9589f5b5fd94b99697ab0622f948, type: 2}
+  - text: "Decid\xED esperar a que se fueran\r"
+    conversation: {fileID: 11400000, guid: e0f0bf9715e737345b7d6c6be0c100f2, type: 2}

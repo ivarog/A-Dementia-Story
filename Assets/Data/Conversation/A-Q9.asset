@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1438cd8561fbfaf4c9e29dae9b895e46, type: 3}
+  m_Name: A-Q9
+  m_EditorClassIdentifier: 
+  text: "Por suerte tra\xEDa"
+  choices:
+  - text: Un encendedor
+    conversation: {fileID: 11400000, guid: 8023b2bd0c5090944abdb68c30e90f2f, type: 2}
+  - text: Una linterna
+    conversation: {fileID: 11400000, guid: 8023b2bd0c5090944abdb68c30e90f2f, type: 2}

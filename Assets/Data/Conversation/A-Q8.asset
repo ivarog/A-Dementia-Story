@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1438cd8561fbfaf4c9e29dae9b895e46, type: 3}
+  m_Name: A-Q8
+  m_EditorClassIdentifier: 
+  text: "-Llegue a ese lugar que el oficial hab\xEDa mencionado, la calle estaba
+    en total silencio, el inmueble estaba totalmente vac\xEDo y oscuro, parec\xEDa
+    abandonado\u2026"
+  choices:
+  - text: "Decid\xED buscar en el patio trasero"
+    conversation: {fileID: 11400000, guid: 1aedbe6b580b5974c8f9bc8e3d55b36c, type: 2}
+  - text: "Entr\xE9 a ese lugar para averiguar"
+    conversation: {fileID: 11400000, guid: 62967f2ec464f6c468b12c5a81592c1a, type: 2}

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f9a9c8316225c84da88ec62108352c0, type: 3}
+  m_Name: A-C14
+  m_EditorClassIdentifier: 
+  speakersLeft:
+  - {fileID: 11400000, guid: a22ee83da24521a4981efd80250f5625, type: 2}
+  speakersRight:
+  - {fileID: 11400000, guid: ab95c249720a43a499e7e74ba07387d5, type: 2}
+  lines:
+  - character: {fileID: 11400000, guid: a22ee83da24521a4981efd80250f5625, type: 2}
+    text: "Entonces la encontr\xE9, ah\xED estaba\u2026 "
+  - character: {fileID: 11400000, guid: a22ee83da24521a4981efd80250f5625, type: 2}
+    text: "\xA1Eras t\xFA! \xA1Esa voz!"
+  - character: {fileID: 11400000, guid: a22ee83da24521a4981efd80250f5625, type: 2}
+    text: "\xA1Siempre fuiste t\xFA! MI HIJA"
+  - character: {fileID: 11400000, guid: ab95c249720a43a499e7e74ba07387d5, type: 2}
+    text: "Ten\xEDa mucho miedo, pensaba que ese era el fin, entonces t\xFA me salvaste.\r"
+  - character: {fileID: 11400000, guid: ab95c249720a43a499e7e74ba07387d5, type: 2}
+    text: 
+  - character: {fileID: 11400000, guid: ab95c249720a43a499e7e74ba07387d5, type: 2}
+    text: "Tiempo despu\xE9s mi padre muri\xF3. Mi padre, quien ha pesar de no saber
+      nada de m\xED desde el d\xEDa en que fui desaparecida, nunca dej\xF3 de buscar\u2026
+      \r"
+  question: {fileID: 0}
+  nextConversation: {fileID: 0}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1438cd8561fbfaf4c9e29dae9b895e46, type: 3}
+  m_Name: A-Q5
+  m_EditorClassIdentifier: 
+  text: "Yo estaba enfurecido, ese sujeto me pidi\xF3 que no hiciera nada loco, \xE9l
+    se har\xEDa cargo. "
+  choices:
+  - text: Le dije que no se preocupara, que solo se fuera
+    conversation: {fileID: 11400000, guid: 6e809a1f803200740a37e28e98ceca6e, type: 2}
+  - text: "Guard\xE9 silencio y le dije que esperar\xEDa paciente"
+    conversation: {fileID: 11400000, guid: 256cb12d7d70f5a4d989b6f568411b56, type: 2}

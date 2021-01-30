@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1438cd8561fbfaf4c9e29dae9b895e46, type: 3}
+  m_Name: A-Q7
+  m_EditorClassIdentifier: 
+  text: "Brenda trato de detenerme pero no le hice caso, me sub\xED al auto, en ese
+    momento ten\xEDa un\u2026"
+  choices:
+  - text: Seat
+    conversation: {fileID: 11400000, guid: fe4c5ab5734bb0341af38ba84dccf33b, type: 2}
+  - text: Mustang
+    conversation: {fileID: 11400000, guid: fe4c5ab5734bb0341af38ba84dccf33b, type: 2}
