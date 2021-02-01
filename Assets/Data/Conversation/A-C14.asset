@@ -19,17 +19,7 @@ MonoBehaviour:
   lines:
   - character: {fileID: 11400000, guid: a22ee83da24521a4981efd80250f5625, type: 2}
     text: "Entonces la encontr\xE9, ah\xED estaba\u2026 "
-  - character: {fileID: 11400000, guid: a22ee83da24521a4981efd80250f5625, type: 2}
-    text: "\xA1Eras t\xFA! \xA1Esa voz!"
-  - character: {fileID: 11400000, guid: a22ee83da24521a4981efd80250f5625, type: 2}
-    text: "\xA1Siempre fuiste t\xFA! MI HIJA"
-  - character: {fileID: 11400000, guid: ab95c249720a43a499e7e74ba07387d5, type: 2}
-    text: "Ten\xEDa mucho miedo, pensaba que ese era el fin, entonces t\xFA me salvaste.\r"
-  - character: {fileID: 11400000, guid: ab95c249720a43a499e7e74ba07387d5, type: 2}
-    text: 
-  - character: {fileID: 11400000, guid: ab95c249720a43a499e7e74ba07387d5, type: 2}
-    text: "Tiempo despu\xE9s mi padre muri\xF3. Mi padre, quien ha pesar de no saber
-      nada de m\xED desde el d\xEDa en que fui desaparecida, nunca dej\xF3 de buscar\u2026
-      \r"
   question: {fileID: 0}
-  nextConversation: {fileID: 0}
+  nextConversation: {fileID: 11400000, guid: e4b1074a7c107e2459682ba92584e224, type: 2}
+  isCheckpoint: 0
+  isFinal: 1

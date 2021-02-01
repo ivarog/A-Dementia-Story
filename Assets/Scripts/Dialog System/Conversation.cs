@@ -45,6 +45,8 @@ public class Conversation : ScriptableObject
     public Conversation nextConversation;
     [Tooltip("Is checkpoint")]
     public bool isCheckpoint;
+    [Tooltip("Is checkpoint")]
+    public bool isFinal = false;
 
     //Auxiliar 
     bool oneCharacter = false;

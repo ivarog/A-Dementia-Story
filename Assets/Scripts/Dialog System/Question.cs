@@ -14,6 +14,10 @@ public class Choice
     [Tooltip("Dialog line")]
     public Conversation conversation;
 
+    public bool decreaseDementia;
+    public bool increaseDementia;
+    public int setDementiaValue;
+
     //Creation of a new choice
     //@return choice created
     public static Choice CreateChoice(string text, Conversation conversation)

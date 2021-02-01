@@ -18,7 +18,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ab95c249720a43a499e7e74ba07387d5, type: 2}
   lines:
   - character: {fileID: 11400000, guid: a22ee83da24521a4981efd80250f5625, type: 2}
-    text: "Ah! escucho esa voz de nuevo. \xBFQui\xE9n eres?"
+    text: "Ah! escucho \"esa voz\" de nuevo. \xBFQui\xE9n eres?"
   - character: {fileID: 11400000, guid: ab95c249720a43a499e7e74ba07387d5, type: 2}
     text: "\xBFA\xFAn no recuerdas ese d\xEDa?"
   question: {fileID: 11400000, guid: f5812b798753b504ba0b7525697c5c96, type: 2}

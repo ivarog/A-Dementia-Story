@@ -14,6 +14,7 @@ public class ChoiceController : MonoBehaviour
     [Tooltip("Instance of question controller in the scene")]
     public QuestionController questionController;
 
+
     //Add a button to the list of buttons in the question
     //@param choiceButtonTemplate template of the button to implement, the other buttons will be like this template
     //@param choice this object contains the choice information
@@ -58,7 +59,8 @@ public class ChoiceController : MonoBehaviour
         buttonTMP.text = choice.text;
         //If the instances are not assigned they will be searched in the scene
         if(conversationController == null) conversationController = FindObjectOfType<ConversationController>();   
-        if(questionController == null) questionController = FindObjectOfType<QuestionController>();   
+        if(questionController == null) questionController = FindObjectOfType<QuestionController>();  
+
     }
 
     //Make choice on click button, the conversation is changed depending on the choice and the dialogue is hidden
@@ -66,5 +68,24 @@ public class ChoiceController : MonoBehaviour
     {
         conversationController.ChangeConversation(choice.conversation);
         questionController.Hide();
+        
+        if(choice.increaseDementia)
+        {
+            TestConversation.instance.IncreaseDementia();
+        }
+        else if(choice.decreaseDementia)
+        {
+            TestConversation.instance.DecreaseDementia();
+        }
+        else if(choice.setDementiaValue != 0)
+        {
+            TestConversation.instance.SetDementiaValue(choice.setDementiaValue);
+            SoundManager.instance.PlayOneShot("Glitch");
+        }
+        else
+        {
+            SoundManager.instance.PlayOneShot("Click");
+        }
+
     }
 }

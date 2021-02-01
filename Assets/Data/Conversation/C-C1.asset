@@ -21,11 +21,6 @@ MonoBehaviour:
     text: Era un Hombre con una escopeta.
   - character: {fileID: 11400000, guid: a22ee83da24521a4981efd80250f5625, type: 2}
     text: "Tratamos de razonar con \xE9l pero estaba loco de ira\r."
-  - character: {fileID: 11400000, guid: a22ee83da24521a4981efd80250f5625, type: 2}
-    text: "Alguien le dijo que la \xFAltima vez que vieron viva a su hija fue en
-      nuestra casa\r."
-  - character: {fileID: 11400000, guid: a22ee83da24521a4981efd80250f5625, type: 2}
-    text: "\xC9l nos dispar\xF3 a ambos, yo sobreviv\xED, pero ella no\u2026  \r"
   question: {fileID: 0}
-  nextConversation: {fileID: 11400000, guid: 51b2232ec5fad514b8c598e3442ea3f9, type: 2}
+  nextConversation: {fileID: 11400000, guid: ed86291aa39a07b439465fd6a09d5bdc, type: 2}
   isCheckpoint: 0

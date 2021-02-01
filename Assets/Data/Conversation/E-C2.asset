@@ -20,8 +20,6 @@ MonoBehaviour:
   - character: {fileID: 11400000, guid: a22ee83da24521a4981efd80250f5625, type: 2}
     text: "Para cuando se dio cuenta le propine un golpe en la cara y lo lleve arrastrando
       a la casa\r."
-  - character: {fileID: 11400000, guid: a22ee83da24521a4981efd80250f5625, type: 2}
-    text: "Nos comimos a ese hombre esa noche. \r"
   question: {fileID: 0}
-  nextConversation: {fileID: 11400000, guid: 51b2232ec5fad514b8c598e3442ea3f9, type: 2}
+  nextConversation: {fileID: 11400000, guid: d7bb438ca37602c4ab1e0365070b3d1e, type: 2}
   isCheckpoint: 0

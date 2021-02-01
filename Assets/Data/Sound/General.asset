@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c863ee59735ae34386c435b0ebeff59, type: 3}
+  m_Name: General
+  m_EditorClassIdentifier: 
+  soundsList:
+  - name: Main
+    clips:
+    - {fileID: 8300000, guid: 885308a4e2ba04a49ada48ac27f2f7a3, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    audioMixer: {fileID: 24300002, guid: e9b2b14571c7dfe4cb7f707f776eebd6, type: 2}
+    audioSource: {fileID: 0}
+    fadingOut: 0
+    fadingIn: 0
+    id: 521822810
+  - name: Noise
+    clips:
+    - {fileID: 8300000, guid: 6cb7aad0c4b35ce418cdc06986d91adf, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    audioMixer: {fileID: 24300002, guid: e9b2b14571c7dfe4cb7f707f776eebd6, type: 2}
+    audioSource: {fileID: 0}
+    fadingOut: 0
+    fadingIn: 0
+    id: 1013496109
+  - name: Glitch
+    clips:
+    - {fileID: 8300000, guid: 317a1cc5e1270364b8c806bf766433b9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    audioMixer: {fileID: 24300002, guid: e9b2b14571c7dfe4cb7f707f776eebd6, type: 2}
+    audioSource: {fileID: 0}
+    fadingOut: 0
+    fadingIn: 0
+    id: -416110544
+  - name: Click
+    clips:
+    - {fileID: 8300000, guid: f50bd1da82207214eb59a974ec07818c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    audioMixer: {fileID: 24300002, guid: e9b2b14571c7dfe4cb7f707f776eebd6, type: 2}
+    audioSource: {fileID: 0}
+    fadingOut: 0
+    fadingIn: 0
+    id: 2067262756
+  - name: Man Voice
+    clips:
+    - {fileID: 8300000, guid: 5a9452ebc298fb448932ece480ad0432, type: 3}
+    - {fileID: 8300000, guid: 3477aec457d681840b8b67a359841bbd, type: 3}
+    - {fileID: 8300000, guid: ddc774c6584cd0340951890b24ee7fb2, type: 3}
+    - {fileID: 8300000, guid: 83bd2e78448446f499e212292601734c, type: 3}
+    - {fileID: 8300000, guid: e5e0edbc1a22f31499836e7e093a69d7, type: 3}
+    - {fileID: 8300000, guid: 670a202e67d6c804ebb215aa6d192e76, type: 3}
+    - {fileID: 8300000, guid: 2d9b237156bc493489549fd768c58c69, type: 3}
+    - {fileID: 8300000, guid: c503e926e648fa54fac206f69c24eeb1, type: 3}
+    - {fileID: 8300000, guid: 6ca429bdbe8f9f742a314cb05d36448c, type: 3}
+    - {fileID: 8300000, guid: 7a8230d36baf84d43836e521a03c6578, type: 3}
+    - {fileID: 8300000, guid: 1e6b4392220f958468e615e18cf15945, type: 3}
+    - {fileID: 8300000, guid: f60c8b9ede4c15a4bb04df633ca1cd29, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    audioMixer: {fileID: 24300002, guid: e9b2b14571c7dfe4cb7f707f776eebd6, type: 2}
+    audioSource: {fileID: 0}
+    fadingOut: 0
+    fadingIn: 0
+    id: -374807945
+  - name: Woman Voice
+    clips:
+    - {fileID: 8300000, guid: 0d76ec6cf81876145a91c224bfb459ea, type: 3}
+    - {fileID: 8300000, guid: 87b97818244b4634288a77bc6a12c458, type: 3}
+    - {fileID: 8300000, guid: 55f899f7cec947941ba2c4f81c4ab159, type: 3}
+    - {fileID: 8300000, guid: 1f594a68e7c38a34095c121ecaef7d01, type: 3}
+    - {fileID: 8300000, guid: f90e3a125c240f7439e57c5659749c31, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    audioMixer: {fileID: 24300002, guid: e9b2b14571c7dfe4cb7f707f776eebd6, type: 2}
+    audioSource: {fileID: 0}
+    fadingOut: 0
+    fadingIn: 0
+    id: -1749134644
+  - name: Final Music
+    clips:
+    - {fileID: 8300000, guid: 83303613b9c456948967ac8aede45c1e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    audioMixer: {fileID: 24300002, guid: e9b2b14571c7dfe4cb7f707f776eebd6, type: 2}
+    audioSource: {fileID: 0}
+    fadingOut: 0
+    fadingIn: 0
+    id: 1902341661

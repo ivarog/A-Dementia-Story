@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a88b3ee6a231a544980582afa56dc170, type: 3}
   m_Name: She
   m_EditorClassIdentifier: 
-  fullName: Ella
+  fullName: La voz
   portrait: {fileID: 0}

@@ -16,5 +16,11 @@ MonoBehaviour:
   choices:
   - text: "Supuse que eso que buscaba estaba detr\xE1s de la puerta con candado"
     conversation: {fileID: 11400000, guid: 633135a00bb6843489e779e6eb1b9ad3, type: 2}
+    decreaseDementia: 0
+    increaseDementia: 0
+    setDementiaValue: 2
   - text: "Decid\xED ver primero la puerta que estaba entreabierta"
     conversation: {fileID: 11400000, guid: 1b3a0c777bb8402429f660981620516b, type: 2}
+    decreaseDementia: 0
+    increaseDementia: 0
+    setDementiaValue: 0

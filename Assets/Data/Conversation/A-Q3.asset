@@ -16,5 +16,11 @@ MonoBehaviour:
   choices:
   - text: Era un hombre con una escopeta
     conversation: {fileID: 11400000, guid: ac088fd45044db74d8aa82f2918f9244, type: 2}
+    decreaseDementia: 0
+    increaseDementia: 0
+    setDementiaValue: 2
   - text: Era un oficial de policia
     conversation: {fileID: 11400000, guid: fec874680e2b69248958c723e1910f58, type: 2}
+    decreaseDementia: 0
+    increaseDementia: 0
+    setDementiaValue: 0

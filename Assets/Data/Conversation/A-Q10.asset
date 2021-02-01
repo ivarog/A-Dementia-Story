@@ -17,5 +17,11 @@ MonoBehaviour:
   choices:
   - text: "Creo que era brujer\xEDa"
     conversation: {fileID: 11400000, guid: 6b6cf4a48e6e85140a44ab2681c587c6, type: 2}
+    decreaseDementia: 1
+    increaseDementia: 0
+    setDementiaValue: 0
   - text: Creo que era una amenaza o advertencia
     conversation: {fileID: 11400000, guid: 6b6cf4a48e6e85140a44ab2681c587c6, type: 2}
+    decreaseDementia: 0
+    increaseDementia: 1
+    setDementiaValue: 0

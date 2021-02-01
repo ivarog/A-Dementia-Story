@@ -17,5 +17,11 @@ MonoBehaviour:
   choices:
   - text: "Decid\xED enfrentarlos y tratar de averiguar que pasaba\u2026"
     conversation: {fileID: 11400000, guid: 4c3b9589f5b5fd94b99697ab0622f948, type: 2}
+    decreaseDementia: 0
+    increaseDementia: 0
+    setDementiaValue: 2
   - text: "Decid\xED esperar a que se fueran\r"
     conversation: {fileID: 11400000, guid: e0f0bf9715e737345b7d6c6be0c100f2, type: 2}
+    decreaseDementia: 0
+    increaseDementia: 0
+    setDementiaValue: 0

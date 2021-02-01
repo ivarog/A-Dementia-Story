@@ -16,5 +16,11 @@ MonoBehaviour:
   choices:
   - text: "Sal\xED detr\xE1s del polic\xEDa"
     conversation: {fileID: 11400000, guid: e593fee4cf9f78c419c72f5a441930d9, type: 2}
+    decreaseDementia: 0
+    increaseDementia: 0
+    setDementiaValue: 2
   - text: "Sub\xED a mi habitaci\xF3n"
     conversation: {fileID: 11400000, guid: 6ffc12f6bbf4c6149893db2475f5f650, type: 2}
+    decreaseDementia: 0
+    increaseDementia: 0
+    setDementiaValue: 0

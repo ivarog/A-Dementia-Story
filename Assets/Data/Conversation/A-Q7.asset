@@ -15,7 +15,13 @@ MonoBehaviour:
   text: "Brenda trato de detenerme pero no le hice caso, me sub\xED al auto, en ese
     momento ten\xEDa un\u2026"
   choices:
-  - text: Seat
+  - text: 'Escarabajo '
     conversation: {fileID: 11400000, guid: fe4c5ab5734bb0341af38ba84dccf33b, type: 2}
-  - text: Mustang
+    decreaseDementia: 1
+    increaseDementia: 0
+    setDementiaValue: 0
+  - text: 'Impala '
     conversation: {fileID: 11400000, guid: fe4c5ab5734bb0341af38ba84dccf33b, type: 2}
+    decreaseDementia: 0
+    increaseDementia: 1
+    setDementiaValue: 0

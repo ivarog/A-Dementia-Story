@@ -98,6 +98,7 @@ public class ConversationController  : MonoBehaviour{
     public void ChangeConversation(Conversation nextConversation)
     {
         SetConversation(nextConversation);
+        TestConversation.instance.CheckBackground();
         AdvanceLine();
     }
 
@@ -158,6 +159,16 @@ public class ConversationController  : MonoBehaviour{
     void DisplayLine(){
         Line line = conversation.lines[activeLineIndex];
         Character character = line.character;
+
+        if(character.name == "He")
+        {
+            SoundManager.instance.Play("Man Voice");
+        }
+        else if(character.name == "She")
+        {
+            SoundManager.instance.Play("Woman Voice");
+        }
+
         //If speaker in side is next then show GUI
         if(speakerUILeft.SpeakersHas(character))
         {

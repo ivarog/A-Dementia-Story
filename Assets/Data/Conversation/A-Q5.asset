@@ -17,5 +17,11 @@ MonoBehaviour:
   choices:
   - text: Le dije que no se preocupara, que solo se fuera
     conversation: {fileID: 11400000, guid: 6e809a1f803200740a37e28e98ceca6e, type: 2}
+    decreaseDementia: 0
+    increaseDementia: 0
+    setDementiaValue: 0
   - text: "Guard\xE9 silencio y le dije que esperar\xEDa paciente"
     conversation: {fileID: 11400000, guid: 256cb12d7d70f5a4d989b6f568411b56, type: 2}
+    decreaseDementia: 0
+    increaseDementia: 0
+    setDementiaValue: 2

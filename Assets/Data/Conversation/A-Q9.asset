@@ -16,5 +16,11 @@ MonoBehaviour:
   choices:
   - text: Un encendedor
     conversation: {fileID: 11400000, guid: 8023b2bd0c5090944abdb68c30e90f2f, type: 2}
+    decreaseDementia: 1
+    increaseDementia: 0
+    setDementiaValue: 0
   - text: Una linterna
     conversation: {fileID: 11400000, guid: 8023b2bd0c5090944abdb68c30e90f2f, type: 2}
+    decreaseDementia: 0
+    increaseDementia: 1
+    setDementiaValue: 0

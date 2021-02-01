@@ -17,5 +17,11 @@ MonoBehaviour:
   choices:
   - text: Un bar
     conversation: {fileID: 11400000, guid: 9db263cd75030e44d9d3b192f3018341, type: 2}
+    decreaseDementia: 1
+    increaseDementia: 0
+    setDementiaValue: 0
   - text: Una bodega
     conversation: {fileID: 11400000, guid: 9db263cd75030e44d9d3b192f3018341, type: 2}
+    decreaseDementia: 0
+    increaseDementia: 1
+    setDementiaValue: 0
