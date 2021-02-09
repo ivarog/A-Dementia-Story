@@ -121,6 +121,21 @@ public class SoundManager : MonoBehaviour
 		}
 	}
 
+	public void SetVolume(string soundName, float volume, float pitch = 1f)
+	{
+		Sound sound = soundsDictionary[Animator.StringToHash(soundName)];
+
+		if (sound == null)
+		{
+			Debug.LogWarning("Sound: " + name + " not found!");
+			return;
+		}
+
+		sound.audioSource.volume = volume;
+		sound.audioSource.pitch = pitch;
+
+	}
+
     //Play audio in one shot mode, several audios same time
     //@params soundName name of audio to play
     //@params forcePlay if true, forces the audio to play again from the beginning

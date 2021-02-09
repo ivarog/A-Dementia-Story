@@ -12,6 +12,8 @@ public class DementiaValues
 {
     public float strength;
     public float time;
+    public float volumeMainMusic;
+    public float volumeNoiseSound;
 }
 
 [System.Serializable]
@@ -64,6 +66,7 @@ public class TestConversation : MonoBehaviour
             conversationController.AdvanceLine();
         }
         SoundManager.instance.Play("Main");
+        SoundManager.instance.Play("Noise Background");
         SetDementiaValue(0);
         CheckBackground();
         StartCoroutine(TitleScreenState());
@@ -92,6 +95,7 @@ public class TestConversation : MonoBehaviour
         {
             finalOnce = true;
             SoundManager.instance.StopFadeOut("Main", 4f);
+            SoundManager.instance.StopFadeOut("Noise Background", 4f);
             SoundManager.instance.PlayFadeIn("Final Music", 4f);
             exitButton.SetActive(true);
             backgroundShader.SetFloat("Vector1_C97773F6", 0f);
@@ -182,6 +186,8 @@ public class TestConversation : MonoBehaviour
     {
         backgroundShader.SetFloat("Vector1_C97773F6", dementiaValues[dementia].strength);
         backgroundShader.SetFloat("Vector1_C571230C", dementiaValues[dementia].time);
+        SoundManager.instance.SetVolume("Main", dementiaValues[dementia].volumeMainMusic);
+        SoundManager.instance.SetVolume("Noise Background", dementiaValues[dementia].volumeNoiseSound);
     }
 
     public void ExitGame()
