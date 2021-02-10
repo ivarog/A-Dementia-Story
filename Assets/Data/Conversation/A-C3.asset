@@ -20,10 +20,11 @@ MonoBehaviour:
   - character: {fileID: 11400000, guid: a22ee83da24521a4981efd80250f5625, type: 2}
     text: "Yo habia vuelto a casa despu\xE9s de salir a buscar como todos los d\xEDas,
       buscaba... y buscaba, no se que buscaba, pero estaba perdiendo la esperanza
-      de encontrarlo.\r\n."
+      de encontrarlo.\r"
   - character: {fileID: 11400000, guid: a22ee83da24521a4981efd80250f5625, type: 2}
     text: "La mujer que viv\xEDa conmigo tampoco dejaba de llorar creo que era...
       \nMi esposa."
   question: {fileID: 11400000, guid: efb79e7956ee0574eaa0ee5d70510292, type: 2}
   nextConversation: {fileID: 0}
   isCheckpoint: 1
+  isFinal: 0

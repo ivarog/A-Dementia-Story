@@ -105,3 +105,14 @@ MonoBehaviour:
     fadingOut: 0
     fadingIn: 0
     id: 1902341661
+  - name: Noise Background
+    clips:
+    - {fileID: 8300000, guid: 6cb7aad0c4b35ce418cdc06986d91adf, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    audioMixer: {fileID: 24300002, guid: e9b2b14571c7dfe4cb7f707f776eebd6, type: 2}
+    audioSource: {fileID: 0}
+    fadingOut: 0
+    fadingIn: 0
+    id: -141105568

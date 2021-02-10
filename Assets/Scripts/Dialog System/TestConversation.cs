@@ -14,6 +14,8 @@ public class DementiaValues
     public float time;
     public float volumeMainMusic;
     public float volumeNoiseSound;
+    public float pitchMainMusic;
+    public float alphaFrame;
 }
 
 [System.Serializable]
@@ -36,15 +38,20 @@ public class TestConversation : MonoBehaviour
     public GameObject blackOutSquare;
     public GameObject titleScreen;
     public GameObject exitButton;
+    public Image frameColor;
 
 
     public List<DementiaValues> dementiaValues;
     public List<Backgrounds> backgroundsValues;
 
+
+
     private int dementia;
     private int lastDementia;
     private bool canContinue = false;
     private bool finalOnce = false;
+    private float auxCount = 0;
+    private Camera gameMainCamera;
 
     public static TestConversation instance;
     
@@ -70,6 +77,7 @@ public class TestConversation : MonoBehaviour
         SetDementiaValue(0);
         CheckBackground();
         StartCoroutine(TitleScreenState());
+        gameMainCamera = Camera.main;
     }
 
     //Just used to advance the conversation state at mouse click
@@ -101,6 +109,8 @@ public class TestConversation : MonoBehaviour
             backgroundShader.SetFloat("Vector1_C97773F6", 0f);
             backgroundShader.SetFloat("Vector1_C571230C", 0f);
         }
+
+       
     }
 
     IEnumerator RestartMemories()
@@ -167,6 +177,7 @@ public class TestConversation : MonoBehaviour
         dementia = Mathf.Clamp(dementia + 1, 0, 3); 
         CheckDementiaValues();
         SoundManager.instance.PlayOneShot("Glitch");
+        StartCoroutine(ZoomDementiaEffect());
     }
 
     public void DecreaseDementia()
@@ -186,13 +197,41 @@ public class TestConversation : MonoBehaviour
     {
         backgroundShader.SetFloat("Vector1_C97773F6", dementiaValues[dementia].strength);
         backgroundShader.SetFloat("Vector1_C571230C", dementiaValues[dementia].time);
-        SoundManager.instance.SetVolume("Main", dementiaValues[dementia].volumeMainMusic);
+        SoundManager.instance.SetVolume("Main", dementiaValues[dementia].volumeMainMusic, dementiaValues[dementia].pitchMainMusic);
         SoundManager.instance.SetVolume("Noise Background", dementiaValues[dementia].volumeNoiseSound);
+        StartCoroutine(ChangeAlpha(dementiaValues[dementia].alphaFrame, 1f));
     }
 
     public void ExitGame()
     {
         Application.Quit();
+    }
+
+    IEnumerator ZoomDementiaEffect()
+    {
+        float auxCount = 0;
+        float originalSize = gameMainCamera.orthographicSize;
+
+        while(auxCount <= Mathf.PI)
+        {
+            gameMainCamera.orthographicSize = originalSize - 0.2f * Mathf.Sin(auxCount);
+            auxCount += 5f * Time.deltaTime;
+            yield return null;
+        }
+        yield break;
+    }
+
+    IEnumerator ChangeAlpha(float v_end, float duration )
+    {
+        float elapsed = 0.0f;
+        float v_start = frameColor.color.a;
+        while (elapsed < duration )
+        {
+            frameColor.color = new Color(frameColor.color.r, frameColor.color.g, frameColor.color.b, Mathf.Lerp( v_start, v_end, elapsed / duration ));
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+        frameColor.color = new Color(frameColor.color.r, frameColor.color.g, frameColor.color.b, v_end);
     }
 
 }
